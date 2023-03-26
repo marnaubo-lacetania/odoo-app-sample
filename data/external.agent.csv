@@ -1,0 +1,3 @@
+"name","age","min_sales","apply_rappel","salary"
+"John Doe",42,3,False,35000
+"Jane Doe",39,5,True,55300
