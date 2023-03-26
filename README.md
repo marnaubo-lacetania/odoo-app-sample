@@ -23,7 +23,8 @@ El directori `assets` conté únicament imatges per a la documentació d'aquest 
 ## Instal·lació
 ### Activar el mode desenvolupador
 És **molt important** activar el mode desenvolupador a l'aplicació, per tal de poder recarregar la llista de mòduls disponibles. Podeu fer-ho des de:
-[Captura: Activar mode desenvolupador](./assets/img/captura1-activar-mode-desenvolupdador.png).
+
+![Captura: Activar mode desenvolupador](./assets/img/captura1-activar-mode-desenvolupador.png).
 
 ### On ubicar-ho?
 Heu de desar el contingut del repositori en una nova carpeta, anomenada per exemple `agents` dins de `C:\Program Files\Odoo 16.0.x\server\odoo\addons`. Aquí podeu anar creant carpetes pels diferents mòduls que vulgueu desplegar a la vostra instal·lació del Odoo.
@@ -34,15 +35,20 @@ Perquè detecti la nova aplicació, haurem d'actualitzar la llista d'aplicacions
 Aplicaciones >> Actualizar lista de aplicaciones
 ```
 Adjuntem captura:
-[Captura: Actualitzar llista d'aplicacions](./assets/img/captura2-actualitzar-llista-aplicacions.png)
+
+![Captura: Actualitzar llista d'aplicacions](./assets/img/captura2-actualitzar-llista-aplicacions.png)
+
 i tot seguit...
-[Captura: Actualitzar llista d'aplicacions (2)](./assets/img/captura2-actualitzar-llista-aplicacions-2.png)
+
+![Captura: Actualitzar llista d'aplicacions (2)](./assets/img/captura2-actualitzar-llista-aplicacions-2.png)
 
 Una vegada actualitzat ja podem cercar la nova aplicació des del buscador d'aplicacions i activar-la perquè quedi instal·lada:
-[Captura: Instal·lar aplicació](./assets/img/captura3-instalar-aplicacio.png)
+
+![Captura: Instal·lar aplicació](./assets/img/captura3-instalar-aplicacio.png)
 
 Si tot ha anat correctament ja ens apareixerà l'opció de **External Agents** a la llista d'aplicacions del sistema. Al entrar-hi veurem que s'ha emplenat la taula corresponent amb les dades d'exemples de l'arxiu .CSV de la carpeta `data`:
-[Captura: Pantalla d'agents](./assets/img/captura4-pantalla-agents)
+
+![Captura: Pantalla d'agents](./assets/img/captura4-pantalla-agents.png)
 
 ### Proveu i remeneu
 A partir d'aquí, podeu provar de crear, editar i eliminar diferents agents de la base de dades de l'aplicació instal·lada. Veureu com en realitat amb pocs passos em pogut desplegar una aplicació integrada en el nostre ERP. Amb uns quants coneixements més podríem ampliar la complexitat i interrelació d'aquesta aplicació amb altres mòduls i aplicacions del nostre ERP per donar-li encara més sentit.
@@ -58,14 +64,18 @@ Cada cop que hi realitzeu canvis haureu de:
 
 ### Desinstal·lar l'aplicació
 Des de la llista d'aplicacions podeu cercar l'aplicació altre cop ("Agents") i procedir a desinstal·lar-ho:
-[Captura: Desinstal·lar l'aplicació](./assets/img/captura5-desinstalar.png)
+
+![Captura: Desinstal·lar l'aplicació](./assets/img/captura5-desinstalar.png)
 
 ### Eliminar l'aplicació del catàleg
 Des de la llista d'aplicacions, altre cop, cal cercar l'aplicació i accedir a "Mas información" per poder-la suprimir del catàleg:
-[Captura: Més informació sobre l'aplicació](./assets/img/captura6-mes-info-aplicacio.png)
-[Captura: Suprimir l'aplicació](./assets/img/captura7-suprimir-aplicacio-cataleg.png)
+
+![Captura: Més informació sobre l'aplicació](./assets/img/captura6-mes-info-aplicacio.png)
+
+![Captura: Suprimir l'aplicació](./assets/img/captura7-suprimir-aplicacio-cataleg.png)
 
 ### Reiniciar el servei
 Finalment, abans de tornar a instal·lar el mòdul cap reiniciar el servei que gestiona el servidor de Odoo. Pel cas de Windows és `odoo-server-x` des de la llsita de serveis del sistema:
-[Captura: Reinici servei Odoo](./assets/img/captura8-reiniciar-servei.png)
+
+![Captura: Reinici servei Odoo](./assets/img/captura8-reiniciar-servei.png)
 
